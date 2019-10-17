@@ -24,6 +24,7 @@ boxplot(len ~ supp, data = teeth)
 boxplot(len ~ dose + supp, data = teeth)
 ```
 
+Permutation
 
 ```{r permute}
 # Observed difference in teeth length due to supplement method
